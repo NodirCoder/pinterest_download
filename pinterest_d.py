@@ -1,6 +1,6 @@
 from requests_html import HTMLSession
 
-ZORO_IMG = 'https://pin.it/4zLa0ig5l'
+ZORO_IMG = 'https://pin.it/4zLa0ig5l' # just for testing script
 s = HTMLSession()
 
 def get_pin(url: str):
